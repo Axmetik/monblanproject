@@ -1,0 +1,116 @@
+.events {
+  position: relative;
+  margin: 3em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.events__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.main::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  width: 210px;
+  height: 368px;
+  background: url("../images/decor2.png");
+}
+
+.events__content {
+  display: grid;
+}
+.events-list-view {
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+.events-grid-view {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.event {
+  display: grid;
+  background-color: #fff;
+}
+.event-list-view {
+  grid-template-areas:
+    "image period period event-date event-date upload-image"
+    "image stats1 stats1 stats2 stats2 upload-date";
+  gap: 1em;
+}
+.event-grid-view {
+  grid-template-areas:
+    "image image"
+    "period event-date"
+    "stats1 stats2"
+    "upload-image upload-date";
+  gap: 1em;
+  justify-content: center;
+  width: fit-content;
+  padding: 1em;
+  justify-self: center;
+}
+.event__image {
+  grid-area: image;
+}
+.event__period {
+  grid-area: period;
+  align-self: last baseline;
+}
+.event__date {
+  grid-area: event-date;
+  align-self: last baseline;
+}
+.event__upload-image {
+  grid-area: upload-image;
+  align-self: last baseline;
+}
+.event__stats {
+  display: flex;
+  gap: 1em;
+}
+.stats-grid {
+  flex-direction: column;
+}
+.stats1 {
+  grid-area: stats1;
+}
+.event-likes-grid {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.event-comments-grid {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.stats2 {
+  grid-area: stats2;
+}
+.event__upload-date {
+  grid-area: upload-date;
+}
+
+.hidden {
+  display: none;
+}
+
+.event-load {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  align-self: center;
+  color: #929292;
+  padding: 0.5em 2em;
+  border: 1px solid #929292;
+  border-radius: 25px;
+  transition-duration: 0.5s;
+}
+.event-load:hover {
+  background-color: #929292;
+  color: #fff;
+}

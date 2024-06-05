@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker-bs5.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Monblanproject</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <img src="./images/logo.png" alt="logo" />
+          </div>
+          <div class="header__content">
+            <div class="header__meta">
+              <h1>monblanproject</h1>
+              <div>Starts on 06-24-2024</div>
+            </div>
+            <div class="header__stats">
+              <p><span>870</span> posts</p>
+              <p><span>11,787</span> followers</p>
+              <p><span>112</span> following</p>
+            </div>
+            <div class="header__datepicker">
+              <div>
+                <span>Date</span>
+              </div>
+              <div class="input-group">
+                <i class="bi bi-calendar-date input-group-text"></i>
+                <input type="text" class="datepicker_input form-control inp_1" placeholder="From" />
+              </div>
+              <div class="input-group">
+                <i class="bi bi-calendar-date input-group-text"></i>
+                <input type="text" class="datepicker_input form-control inp_2" placeholder="To" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="toggles">
+          <div class="toggles__container">
+            <div class="toggle-grid"><i class="bi bi-grid-3x3-gap-fill"></i></div>
+            <div class="toggle-list active"><i class="bi bi-list-task"></i></div>
+          </div>
+        </section>
+        <section class="events">
+          <div class="events__container">
+            <div class="events__content events-list-view">
+              <div class="event event-list-view">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/230/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-24-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes event-likes-list likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments event-comments-list comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes event-likes-list likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments event-comments-list comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/231/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-24-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/232/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-23-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/233/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-24-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/235/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>07-01-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+
+              <!-- hidden -->
+              <div class="event event-list-view hidden">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/220/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-01-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes event-likes-list likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments event-comments-list comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes event-likes-list likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments event-comments-list comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view hidden">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/221/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-05-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view hidden">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/222/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-24-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view hidden">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/223/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-06-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view hidden">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/225/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-24-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view hidden">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/229/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-24-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+              <div class="event event-list-view hidden">
+                <div class="event__image">
+                  <img src="https://picsum.photos/id/227/200/200" alt="event-image" />
+                </div>
+                <div class="event__period"><span></span></div>
+                <div class="event__date">
+                  <span>06-24-2024</span>
+                </div>
+                <div class="event__upload-image">
+                  <span>Image upload</span>
+                </div>
+                <div class="event__stats stats-list stats1">
+                  <div class="event__likes likes1">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>128</span>
+                  </div>
+                  <div class="event__comments comments1">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>31</spna>
+                  </div>
+                </div>
+                <div class="event__stats stats-list stats2">
+                  <div class="event__likes likes2">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>67</span>
+                  </div>
+                  <div class="event__comments comments2">
+                    <i class="bi bi-chat-right-fill"></i>
+                    <spna>22</spna>
+                  </div>
+                </div>
+                <div class="event__upload-date">
+                  <span>22-06-2024</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="event-load more">Load more</div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"><span>Monblanproject ©Copyright 2024</span></footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/js/datepicker-full.min.js"></script>
+    <script>
+      const Events = document.querySelectorAll(".event");
+      Events.forEach((event) => {
+        const date = event.querySelector(".event__date").querySelector("span").textContent;
+
+        const [month, day, year] = date.split("-");
+        const target = new Date(year, month - 1, day);
+        const today = new Date();
+
+        const differenceInMilliseconds = target - today;
+
+        const differenceInDays = Math.ceil(differenceInMilliseconds / (1000 * 60 * 60 * 24));
+        console.log(differenceInDays);
+        if (differenceInDays < 0) {
+          event.querySelector(".event__period").querySelector("span").textContent = `${Math.abs(
+            differenceInDays
+          )} days ago`;
+        } else if (differenceInDays > 0) {
+          event.querySelector(".event__period").querySelector("span").textContent = `In ${Math.abs(
+            differenceInDays
+          )} days`;
+        } else if (differenceInDays === 0) {
+          event.querySelector(".event__period").querySelector("span").textContent = "Today";
+        }
+      });
+    </script>
+    <script src="scripts/datepicker.js"></script>
+    <script src="scripts/toggles.js"></script>
+    <script src="scripts/load.js"></script>
+  </body>
+</html>

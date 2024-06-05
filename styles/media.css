@@ -1,0 +1,91 @@
+@media (max-width: 759.98px) {
+  .header__content {
+    gap: 0;
+  }
+  .header__meta span {
+    display: none;
+  }
+  .header__stats p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__datepicker {
+    flex-direction: column;
+    gap: 0;
+  }
+  .header__datepicker span {
+    display: none;
+  }
+  .header__container::after {
+    display: none;
+  }
+}
+@media (max-width: 654.98px) {
+  .header__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em !important;
+  }
+  .header__stats {
+    gap: 0 !important;
+    justify-content: space-between;
+  }
+}
+
+/* ==================================================== */
+@media (max-width: 759.98px) {
+  .toggles {
+    display: none;
+  }
+}
+
+/* ==================================================== */
+@media (max-width: 759.98px) {
+  .events {
+    margin: 3em 0 !important;
+  }
+  .events-grid-view {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 0;
+  }
+  .events-list-view {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 0;
+  }
+  .event-list-view {
+    grid-template-areas:
+      "image image"
+      "period event-date"
+      "stats1 stats2"
+      "upload-image upload-date" !important;
+    gap: 1em;
+    justify-content: center;
+    width: fit-content;
+    padding: 1em;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 654.98px) {
+  .events-grid-view {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0;
+  }
+  .events-list-view {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0;
+  }
+}
+
+@media (max-width: 499.98px) {
+  .events-grid-view {
+    grid-template-columns: 1fr !important;
+    gap: 0;
+  }
+  .events-list-view {
+    grid-template-columns: 1fr !important;
+    gap: 0;
+  }
+}
